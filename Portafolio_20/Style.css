@@ -1,0 +1,27 @@
+:root{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo{
+    width: 150px;
+}
+
+#contenedor_cabecera{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#contenedor_banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./img/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1080px;
+}
+#descripcion{
+    font-size: xx-large;
+    color: #fff;
+}
